@@ -28,11 +28,7 @@ def name_to_number(name):
          print "err"
     return num
         
-            
-     
-    
-    # delete the following pass statement and fill in your code below
-    pass
+
 
     # convert name to number using if/elif/else
     # don't forget to return the result!
@@ -75,24 +71,6 @@ def rpsls(player_choice):
     else:
         print "You tied!"
     
-    # delete the following pass statement and fill in your code below
-    
-    # print a blank line to separate consecutive games
-
-    # print out the message for the player's choice
-
-    # convert the player's choice to player_number using the function name_to_number()
-
-    # compute random guess for comp_number using random.randrange()
-
-    # convert comp_number to comp_choice using the function number_to_name()
-    
-    # print out the message for computer's choice
-
-    # compute difference of comp_number and player_number modulo five
-
-    # use if/elif/else to determine winner, print winner message
-
     
 # test your code - THESE CALLS MUST BE PRESENT IN YOUR SUBMITTED CODE
 rpsls("rock")
